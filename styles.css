@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe6e6;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#yes {
+    background-color: green;
+    color: white;
+}
+
+#no {
+    background-color: red;
+    color: white;
+}
+
+#yes:hover {
+    background-color: darkgreen;
+}
+
+#no:hover {
+    background-color: darkred;
+}
